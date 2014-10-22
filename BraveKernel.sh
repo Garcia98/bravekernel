@@ -26,7 +26,9 @@ if [[ $# = 1 ]]; then
     fi
 
     echo "Patching needed files"
-    . device/sony/montblanc-common/patches/patch.sh
+    cd device/sony/montblanc-common/patches
+    ./patch.sh
+    cd ../../../..
     echo "Patching has finished"
 
     if [ ! "$BRAVEKERNEL" == cool ]; then
