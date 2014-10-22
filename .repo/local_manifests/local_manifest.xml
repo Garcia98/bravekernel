@@ -156,10 +156,6 @@
   <remove-project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <remove-project path="external/libusb-compat" name="CyanogenMod/android_external_libusb-compat" />
   <remove-project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="external/libusb" name="CyanogenMod/android_external_libusb" />
-  <remove-project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
-  <remove-project path="external/libusb-compat" name="CyanogenMod/android_external_libusb-compat" />
-  <remove-project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/libvorbis" name="CyanogenMod/android_external_libvorbis" />
   <remove-project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
   <remove-project path="external/libxml2" name="CyanogenMod/android_external_libxml2" />
