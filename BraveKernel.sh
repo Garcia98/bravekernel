@@ -6,13 +6,13 @@ usage="Usage: ./BraveKernel.sh -u | -p | -s | -g"
 
 if [ ! -f "Makefile" ]; then
     echo "It's your first time, downloading all files that are needed"
-    source repo init -u git://github.com/CyanogenMod/android -b cm-11.0
-    source repo sync -cq -j8
+    ./repo init -u git://github.com/CyanogenMod/android -b cm-11.0
+    ./repo sync -cq -j8
     echo "All files downloaded"
 else
     echo "Updating files"
     git pull
-    source repo sync -cq -j8
+    ./repo sync -cq -j8
     echo "All is updated"
 fi
 
@@ -26,7 +26,7 @@ if [[ $# = 1 ]]; then
     fi
 
     echo "Patching needed files"
-    source device/sony/montblanc-common/patches/patch.sh
+    . device/sony/montblanc-common/patches/patch.sh
     echo "Patching has finished"
 
     if [ ! "$BRAVEKERNEL" == cool ]; then
@@ -41,7 +41,7 @@ if [[ $# = 1 ]]; then
     fi
 
     if [[ $? = 0 ]]; then
-        source build/envsetup.sh
+        . build/envsetup.sh
         echo "Building"
         case $1 in
         -u)
@@ -70,7 +70,7 @@ if [[ $# = 1 ]]; then
     fi
 
     echo "Clearing patches"
-    source device/sony/montblanc-common/patches/patch.sh
+    . device/sony/montblanc-common/patches/patch.sh
     echo "Patches cleared"
             
 else
