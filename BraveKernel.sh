@@ -72,7 +72,9 @@ if [[ $# = 1 ]]; then
     fi
 
     echo "Clearing patches"
-    . device/sony/montblanc-common/patches/patch.sh
+    cd device/sony/montblanc-common/patches
+    ./clearpatches.sh
+    cd ../../../..
     echo "Patches cleared"
             
 else
