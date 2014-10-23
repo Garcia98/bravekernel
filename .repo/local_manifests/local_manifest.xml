@@ -38,10 +38,8 @@
   <remove-project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <remove-project path="external/arduino" name="CyanogenMod/android_external_arduino" />
   <remove-project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <remove-project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <remove-project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <remove-project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
-  <remove-project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <remove-project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <remove-project path="external/bson" name="CyanogenMod/android_external_bson" />
   <remove-project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
@@ -135,7 +133,6 @@
   <remove-project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
   <remove-project path="external/koush/ion" name="CyanogenMod/ion" />
   <remove-project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
-  <remove-project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <remove-project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <remove-project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
   <remove-project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -193,7 +190,6 @@
   <remove-project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <remove-project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <remove-project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
-  <remove-project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <remove-project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <remove-project path="external/ppp" name="CyanogenMod/android_external_ppp" />
@@ -207,7 +203,6 @@
   <remove-project path="external/replicaisland" name="CyanogenMod/android_external_replicaisland" />
   <remove-project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-  <remove-project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" groups="pdk" />
   <remove-project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/skia" name="CyanogenMod/android_external_skia" />
@@ -216,13 +211,11 @@
   <remove-project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <remove-project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <remove-project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <remove-project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <remove-project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <remove-project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <remove-project path="external/srec" name="CyanogenMod/android_external_srec" />
   <remove-project path="external/srtp" name="CyanogenMod/android_external_srtp" />
   <remove-project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
-  <remove-project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <remove-project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <remove-project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <remove-project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -242,7 +235,6 @@
   <remove-project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
   <remove-project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <remove-project path="external/xmp_toolkit" name="CyanogenMod/android_external_xmp_toolkit" />
-  <remove-project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <remove-project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
@@ -279,7 +271,6 @@
   <remove-project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <remove-project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <remove-project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <remove-project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
   <remove-project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
@@ -384,20 +375,12 @@
   <remove-project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <remove-project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <remove-project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <remove-project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk,tools" />
   <remove-project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <remove-project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
