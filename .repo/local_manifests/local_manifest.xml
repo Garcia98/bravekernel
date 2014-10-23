@@ -221,6 +221,7 @@
   <remove-project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <remove-project path="external/srec" name="CyanogenMod/android_external_srec" />
   <remove-project path="external/srtp" name="CyanogenMod/android_external_srtp" />
+  <remove-project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <remove-project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <remove-project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <remove-project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
