@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Don't remove projects for now
   <remove-project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <remove-project path="art" name="CyanogenMod/android_art" />
   <remove-project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -403,6 +404,7 @@
   <remove-project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+    -->
 
   <project path="kernel/sony/u8500" name="Garcia98/android_kernel_sony_u8500" revision="refresh" />
   <project path="device/sony/montblanc-common" name="Garcia98/android_device_sony_montblanc-common" revision="brave" />
