@@ -1,4 +1,4 @@
-BraveKernel
+BraveKernel [![Build Status](http://jenkins.hubdroid.com/buildStatus/icon?job=bravekernel)](http://jenkins.hubdroid.com/job/bravekernel/)
 -----------
 
 ### Instructions for building BraveKernel:
