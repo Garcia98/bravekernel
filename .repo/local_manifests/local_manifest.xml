@@ -406,10 +406,13 @@
   <remove-project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
     -->
 
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+
   <project path="kernel/sony/u8500" name="Garcia98/android_kernel_sony_u8500" revision="refresh" />
   <project path="device/sony/montblanc-common" name="Garcia98/android_device_sony_montblanc-common" revision="brave" />
   <project path="device/sony/kumquat" name="Garcia98/android_device_sony_kumquat" revision="brave" />
   <project path="device/sony/pepper" name="Garcia98/android_device_sony_pepper" revision="brave" />
   <project path="device/sony/lotus" name="Garcia98/android_device_sony_lotus" revision="brave" />
   <project path="device/sony/nypon" name="Garcia98/android_device_sony_nypon" revision="brave" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-4.4" />
 </manifest>
