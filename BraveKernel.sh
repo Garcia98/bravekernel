@@ -67,16 +67,16 @@ if [[ $# = 1 ]]; then
         sleep 2
         case $1 in
         -u)
-          lunch cm_kumquat-eng && mka bootimage
+          DEVICE=kumquat && lunch cm_kumquat-eng && mka bootimage
         ;;
         -p)
-          lunch cm_nypon-eng && mka bootimage
+          DEVICE=nypon && lunch cm_nypon-eng && mka bootimage
         ;;
         -s)
-          lunch cm_pepper-eng && mka bootimage
+          DEVICE=pepper && lunch cm_pepper-eng && mka bootimage
         ;;
         -g)
-          lunch cm_lotus-eng && mka bootimage
+          DEVICE=lotus && lunch cm_lotus-eng && mka bootimage
         ;;
         *)
           echo "Unknow option"
@@ -84,7 +84,13 @@ if [[ $# = 1 ]]; then
           exit -1
         ;;
         esac
-        if [ -f out/target/product/kumquat/kernel.zip ]; then
+        if [ -f out/target/product/$DEVICE/boot.img ]; then
+            cp -R device/sony/montblanc-common/scripts/META-INF out/target/product/$DEVICE
+            cd out/target/product/$DEVICE
+            zip -r kernel boot.img system/lib/modules META-INF
+            cd ../../../..
+        fi
+        if [ -f out/target/product/$DEVICE/kernel.zip ]; then
             clear
             echo "Build succeeded!"
             sleep 2
