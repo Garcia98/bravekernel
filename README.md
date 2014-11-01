@@ -9,4 +9,4 @@ BraveKernel [![Build Status](http://jenkins.hubdroid.com/buildStatus/icon?job=br
 
 ### Bug list
 
-* zRAM not working: check SLQB and xvMalloc, also add memory and swap cgroups
+* ~~zRAM not working:~~ xvMalloc gave an error allocating zRAM memory
