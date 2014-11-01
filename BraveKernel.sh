@@ -2,7 +2,7 @@
 
 # All in One script
 echo "All in One script for building BraveKernel"
-usage="Usage: ./BraveKernel.sh -u | -p | -s | -g"
+usage="Usage: ./BraveKernel.sh kumquat | nypon | pepper | lotus"
 
 if [ ! -f "Makefile" ]; then
     echo "It's your first time, downloading all files that are needed"
@@ -66,16 +66,16 @@ if [[ $# = 1 ]]; then
         echo "Building"
         sleep 2
         case $1 in
-        -u)
+        kumquat)
           DEVICE=kumquat && lunch cm_kumquat-eng && mka bootimage
         ;;
-        -p)
+        nypon)
           DEVICE=nypon && lunch cm_nypon-eng && mka bootimage
         ;;
-        -s)
+        pepper)
           DEVICE=pepper && lunch cm_pepper-eng && mka bootimage
         ;;
-        -g)
+        lotus)
           DEVICE=lotus && lunch cm_lotus-eng && mka bootimage
         ;;
         *)
