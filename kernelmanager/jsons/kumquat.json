@@ -1,0 +1,38 @@
+{
+    
+    "downloads": [
+
+	{
+    
+            "android": [ "4.4.x" ],
+            "url": "http://jenkins.hubdroid.com/job/bravekernel/lastSuccessfulBuild/artifact/out/target/product/kumquat/kernel.zip",
+            "version": "0.0.0",
+            "note": "Take a backup before flashing!"
+    
+        }
+    
+    ],
+    "lists": [
+    
+        {
+    
+            "url": "https://raw.githubusercontent.com/Garcia98/bravekernel/master/kernelmanager/changelog",
+            "name": "ChangeLog"
+
+        },
+        {
+    
+            "url": "https://raw.githubusercontent.com/Garcia98/bravekernel/master/kernelmanager/features",
+            "name": "Features"
+
+        },
+        {
+    
+            "url": "https://raw.githubusercontent.com/Garcia98/bravekernel/master/kernelmanager/donate.html",
+            "name": "Donation via PayPal"
+
+        }
+    
+    ]
+    
+}
