@@ -5,7 +5,7 @@
 	{
     
             "android": [ "4.4.x" ],
-            "url": "http://jenkins.hubdroid.com/job/bravekernel/lastSuccessfulBuild/artifact/out/target/product/kumquat/kernel.zip",
+            "url": "http://jenkins.hubdroid.com/job/bravekernel/76/artifact/out/target/product/kumquat/kernel.zip",
             "version": "0.0.0",
             "note": "Take a backup before flashing!"
     
@@ -16,20 +16,20 @@
     
         {
     
-            "url": "https://raw.githubusercontent.com/Garcia98/bravekernel/master/kernelmanager/changelog",
-            "name": "ChangeLog"
-
-        },
-        {
-    
-            "url": "https://raw.githubusercontent.com/Garcia98/bravekernel/master/kernelmanager/features",
+            "url": "http://hubdroid.com/~Garcia98/features.html",
             "name": "Features"
 
         },
         {
     
+            "url": "http://hubdroid.com/~Garcia98/changelog.html",
+            "name": "Changelog"
+
+        },
+        {
+    
             "url": "http://hubdroid.com/~Garcia98/donate.html",
-            "name": "Donation via PayPal"
+            "name": "Donation"
 
         }
     
