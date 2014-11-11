@@ -93,7 +93,6 @@
   <remove-project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <remove-project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <remove-project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
-  <remove-project path="external/freetype" name="CyanogenMod/android_external_freetype" groups="pdk" />
   <remove-project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" />
   <remove-project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
   <remove-project path="external/giflib" name="CyanogenMod/android_external_giflib" />
