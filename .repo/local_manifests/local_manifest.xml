@@ -53,6 +53,7 @@
   <remove-project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <remove-project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
