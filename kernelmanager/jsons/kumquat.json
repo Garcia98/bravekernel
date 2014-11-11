@@ -5,8 +5,8 @@
 	{
     
             "android": [ "4.4.x" ],
-            "url": "http://jenkins.hubdroid.com/job/bravekernel/76/artifact/out/target/product/kumquat/kernel.zip",
-            "version": "0.0.0",
+            "url": "http://jenkins.hubdroid.com/job/bravekernel/77/artifact/out/target/product/kumquat/kernel.zip",
+            "version": "0.0.1",
             "note": "Take a backup before flashing!"
     
         }
