@@ -324,7 +324,7 @@
   <remove-project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <remove-project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <remove-project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <remove-project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <remove-project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <remove-project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <remove-project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <remove-project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
