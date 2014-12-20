@@ -412,5 +412,5 @@
   <project path="device/sony/lotus" name="Garcia98/android_device_sony_lotus" revision="brave" />
   <project path="device/sony/nypon" name="Garcia98/android_device_sony_nypon" revision="brave" />
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-4.4" />
-  <project path="linaro" name="Christopher83/linaro_toolchains_2014" revision="2014.10" />
+  <project path="linaro" name="Christopher83/linaro_toolchains_2014" revision="2014.11" />
 </manifest>
