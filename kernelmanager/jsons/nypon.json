@@ -5,7 +5,7 @@
 	{
     
             "android": [ "4.4.x" ],
-            "url": "http://hubdroid.com/~Garcia98/bravekernel/BraveKernel-Refresh_v1.0-nypon.zip",
+            "url": "http://hubdroid.com/~Garcia98/bravekernel/nypon/BraveKernel-Refresh_v1.0-nypon.zip",
             "version": "1.0",
             "note": "Take a backup before flashing!"
     
