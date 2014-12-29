@@ -10,3 +10,4 @@ BraveKernel [![Build Status](http://jenkins.hubdroid.com/buildStatus/icon?job=br
 ### Bug list
 
 * ~~zRAM not working:~~ xvMalloc gave an error allocating zRAM memory
+* [nypon] ~~Torch and notification LED not working:~~ Problem due to bad permissions
