@@ -5,8 +5,8 @@
 	{
     
             "android": [ "4.4.x" ],
-            "url": "http://hubdroid.com/~Garcia98/bravekernel/kumquat/BraveKernel-Refresh_v1.0-kumquat.zip",
-            "version": "1.0",
+            "url": "http://hubdroid.com/~Garcia98/bravekernel/kumquat/BraveKernel-Refresh_v1.1-kumquat.zip",
+            "version": "1.1",
             "note": "Take a backup before flashing!"
     
         }
