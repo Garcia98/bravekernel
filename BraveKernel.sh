@@ -67,16 +67,16 @@ if [[ $# = 1 ]]; then
         sleep 2
         case $1 in
         kumquat)
-          DEVICE=kumquat && lunch cm_kumquat-eng && mka bootimage
+          DEVICE=kumquat && lunch cm_kumquat-eng && make -j8 bootimage
         ;;
         nypon)
-          DEVICE=nypon && lunch cm_nypon-eng && mka bootimage
+          DEVICE=nypon && lunch cm_nypon-eng && make -j8 bootimage
         ;;
         pepper)
-          DEVICE=pepper && lunch cm_pepper-eng && mka bootimage
+          DEVICE=pepper && lunch cm_pepper-eng && make -j8 bootimage
         ;;
         lotus)
-          DEVICE=lotus && lunch cm_lotus-eng && mka bootimage
+          DEVICE=lotus && lunch cm_lotus-eng && make -j8 bootimage
         ;;
         *)
           echo "Unknow option"
@@ -86,8 +86,19 @@ if [[ $# = 1 ]]; then
         esac
         if [ -f out/target/product/$DEVICE/boot.img ]; then
             cp -R device/sony/montblanc-common/scripts/META-INF out/target/product/$DEVICE
+            cp -R out/target/product/$DEVICE/system/lib/modules out/target/product/$DEVICE/
             cd out/target/product/$DEVICE
-            zip -r kernel boot.img system/lib/modules META-INF
+            rm -rf system
+            mkdir system
+            cd system
+            mkdir lib
+            cd ..
+            mv modules system/lib/modules
+            cd ../../../..
+            cp -R device/sony/montblanc-common/scripts/system/bin out/target/product/$DEVICE/system
+            cp -R device/sony/montblanc-common/scripts/system/etc out/target/product/$DEVICE/system
+            cd out/target/product/$DEVICE
+            zip -r kernel boot.img system META-INF
             cd ../../../..
         fi
         if [ -f out/target/product/$DEVICE/kernel.zip ]; then
@@ -110,11 +121,28 @@ if [[ $# = 1 ]]; then
     clear
     echo "Patches cleared"
     sleep 1
-            
+
 else
     echo "For which device do you want to build BraveKernel?"
     echo $usage
-    exit -1
+    clear
+    echo "Patching needed files"
+    sleep 2
+    cd device/sony/montblanc-common/patches
+    ./patch.sh
+    cd ../../../..
+    clear
+    echo "Patching has finished"
+    sleep 2
+    clear
+    echo "Clearing patches"
+    sleep 2
+    cd device/sony/montblanc-common/patches
+    ./clearpatches.sh
+    cd ../../../..
+    clear
+    echo "Patches cleared"
+    sleep 1
 fi
 
 clear
