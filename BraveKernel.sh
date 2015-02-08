@@ -22,6 +22,8 @@ else
     sleep 2
 fi
 
+rm -rf system/core/uncrypt
+
 if [[ $# = 1 ]]; then
     if [ -d "out" ]; then dirty=yes
         clear
